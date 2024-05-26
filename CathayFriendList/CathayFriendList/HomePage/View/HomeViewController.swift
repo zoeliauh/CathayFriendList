@@ -44,13 +44,13 @@ class HomeViewController: UIViewController {
     
     @objc
     private func didTapOnlyFriendListButton() {
-        let vc = OnlyFriendListViewController()
+        let vc = self.factory.createOnlyFriendListViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc
     private func didTapFriendListWithInvitationButton() {
-        let vc = FriendListWithInvitationViewController()
+        let vc = self.factory.createFriendListWithInvitationViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
