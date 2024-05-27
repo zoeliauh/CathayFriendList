@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6B4120A52C031CAC00CB10FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120A42C031CAC00CB10FE /* AppDelegate.swift */; };
-		6B4120A92C031CAC00CB10FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120A82C031CAC00CB10FE /* ViewController.swift */; };
+		6B4120A92C031CAC00CB10FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120A82C031CAC00CB10FE /* HomeViewController.swift */; };
 		6B4120AE2C031CAE00CB10FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4120AD2C031CAE00CB10FE /* Assets.xcassets */; };
 		6B4120B12C031CAE00CB10FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4120AF2C031CAE00CB10FE /* LaunchScreen.storyboard */; };
 		6B4120BC2C031CAF00CB10FE /* CathayFriendListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120BB2C031CAF00CB10FE /* CathayFriendListTests.swift */; };
 		6B4120C62C031CAF00CB10FE /* CathayFriendListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120C52C031CAF00CB10FE /* CathayFriendListUITests.swift */; };
 		6B4120C82C031CAF00CB10FE /* CathayFriendListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120C72C031CAF00CB10FE /* CathayFriendListUITestsLaunchTests.swift */; };
+		6B4120D82C032CE000CB10FE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6B4120D72C032CE000CB10FE /* SnapKit */; };
+		6B4120DA2C032CE400CB10FE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6B4120D92C032CE400CB10FE /* Alamofire */; };
+		6B4120E12C0330A000CB10FE /* PageCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120E02C0330A000CB10FE /* PageCategories.swift */; };
+		6B4120E92C0331CC00CB10FE /* NoFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120E82C0331CC00CB10FE /* NoFriendsViewController.swift */; };
+		6B4120EB2C0331DE00CB10FE /* OnlyFriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120EA2C0331DE00CB10FE /* OnlyFriendListViewController.swift */; };
+		6B4120ED2C0331E800CB10FE /* FriendListWithInvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */; };
+		6B4120F02C0332E500CB10FE /* PagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120EF2C0332E500CB10FE /* PagesFactory.swift */; };
+		6B4120F22C03354600CB10FE /* HomeViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120F12C03354600CB10FE /* HomeViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		6B4120A12C031CAC00CB10FE /* CathayFriendList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CathayFriendList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4120A42C031CAC00CB10FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B4120A82C031CAC00CB10FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B4120A82C031CAC00CB10FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6B4120AD2C031CAE00CB10FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4120B02C031CAE00CB10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B4120B22C031CAE00CB10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,12 @@
 		6B4120C12C031CAF00CB10FE /* CathayFriendListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayFriendListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4120C52C031CAF00CB10FE /* CathayFriendListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayFriendListUITests.swift; sourceTree = "<group>"; };
 		6B4120C72C031CAF00CB10FE /* CathayFriendListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayFriendListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B4120E02C0330A000CB10FE /* PageCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCategories.swift; sourceTree = "<group>"; };
+		6B4120E82C0331CC00CB10FE /* NoFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFriendsViewController.swift; sourceTree = "<group>"; };
+		6B4120EA2C0331DE00CB10FE /* OnlyFriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyFriendListViewController.swift; sourceTree = "<group>"; };
+		6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListWithInvitationViewController.swift; sourceTree = "<group>"; };
+		6B4120EF2C0332E500CB10FE /* PagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesFactory.swift; sourceTree = "<group>"; };
+		6B4120F12C03354600CB10FE /* HomeViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4120D82C032CE000CB10FE /* SnapKit in Frameworks */,
+				6B4120DA2C032CE400CB10FE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +95,7 @@
 				6B4120BA2C031CAF00CB10FE /* CathayFriendListTests */,
 				6B4120C42C031CAF00CB10FE /* CathayFriendListUITests */,
 				6B4120A22C031CAC00CB10FE /* Products */,
+				6B4120D62C032CE000CB10FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +112,12 @@
 		6B4120A32C031CAC00CB10FE /* CathayFriendList */ = {
 			isa = PBXGroup;
 			children = (
+				6B4120EE2C0332CC00CB10FE /* Factory */,
+				6B4120E42C0331A100CB10FE /* FriendListWithInvitationViewController */,
+				6B4120E32C03319200CB10FE /* OnlyFriendListViewController */,
+				6B4120E22C03317C00CB10FE /* NoFriendsViewController */,
+				6B4120DB2C03304900CB10FE /* HomePage */,
 				6B4120A42C031CAC00CB10FE /* AppDelegate.swift */,
-				6B4120A82C031CAC00CB10FE /* ViewController.swift */,
 				6B4120AD2C031CAE00CB10FE /* Assets.xcassets */,
 				6B4120AF2C031CAE00CB10FE /* LaunchScreen.storyboard */,
 				6B4120B22C031CAE00CB10FE /* Info.plist */,
@@ -121,6 +142,103 @@
 			path = CathayFriendListUITests;
 			sourceTree = "<group>";
 		};
+		6B4120D62C032CE000CB10FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B4120DB2C03304900CB10FE /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120DF2C03306600CB10FE /* Model */,
+				6B4120DE2C03306100CB10FE /* ViewModel */,
+				6B4120DD2C03305B00CB10FE /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		6B4120DD2C03305B00CB10FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120A82C031CAC00CB10FE /* HomeViewController.swift */,
+				6B4120F12C03354600CB10FE /* HomeViewStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4120DE2C03306100CB10FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4120DF2C03306600CB10FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120E02C0330A000CB10FE /* PageCategories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4120E22C03317C00CB10FE /* NoFriendsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120E52C0331B300CB10FE /* View */,
+			);
+			path = NoFriendsViewController;
+			sourceTree = "<group>";
+		};
+		6B4120E32C03319200CB10FE /* OnlyFriendListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120E62C0331B800CB10FE /* View */,
+			);
+			path = OnlyFriendListViewController;
+			sourceTree = "<group>";
+		};
+		6B4120E42C0331A100CB10FE /* FriendListWithInvitationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120E72C0331BC00CB10FE /* View */,
+			);
+			path = FriendListWithInvitationViewController;
+			sourceTree = "<group>";
+		};
+		6B4120E52C0331B300CB10FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120E82C0331CC00CB10FE /* NoFriendsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4120E62C0331B800CB10FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120EA2C0331DE00CB10FE /* OnlyFriendListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4120E72C0331BC00CB10FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4120EE2C0332CC00CB10FE /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120EF2C0332E500CB10FE /* PagesFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +255,10 @@
 			dependencies = (
 			);
 			name = CathayFriendList;
+			packageProductDependencies = (
+				6B4120D72C032CE000CB10FE /* SnapKit */,
+				6B4120D92C032CE400CB10FE /* Alamofire */,
+			);
 			productName = CathayFriendList;
 			productReference = 6B4120A12C031CAC00CB10FE /* CathayFriendList.app */;
 			productType = "com.apple.product-type.application";
@@ -255,8 +377,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4120A92C031CAC00CB10FE /* ViewController.swift in Sources */,
+				6B4120A92C031CAC00CB10FE /* HomeViewController.swift in Sources */,
+				6B4120ED2C0331E800CB10FE /* FriendListWithInvitationViewController.swift in Sources */,
 				6B4120A52C031CAC00CB10FE /* AppDelegate.swift in Sources */,
+				6B4120F22C03354600CB10FE /* HomeViewStyle.swift in Sources */,
+				6B4120E12C0330A000CB10FE /* PageCategories.swift in Sources */,
+				6B4120F02C0332E500CB10FE /* PagesFactory.swift in Sources */,
+				6B4120EB2C0331DE00CB10FE /* OnlyFriendListViewController.swift in Sources */,
+				6B4120E92C0331CC00CB10FE /* NoFriendsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +742,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B4120D72C032CE000CB10FE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4120D42C03253700CB10FE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6B4120D92C032CE400CB10FE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4120D52C03255400CB10FE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B4120992C031CAC00CB10FE /* Project object */;
 }
