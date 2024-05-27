@@ -22,6 +22,34 @@
 		6B4120ED2C0331E800CB10FE /* FriendListWithInvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */; };
 		6B4120F02C0332E500CB10FE /* PagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120EF2C0332E500CB10FE /* PagesFactory.swift */; };
 		6B4120F22C03354600CB10FE /* HomeViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120F12C03354600CB10FE /* HomeViewStyle.swift */; };
+		6B4120F52C034AF900CB10FE /* ApiRequestAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120F42C034AF900CB10FE /* ApiRequestAble.swift */; };
+		6B4120F72C034B5200CB10FE /* ApiServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120F62C034B5200CB10FE /* ApiServiceRequest.swift */; };
+		6B4120F92C034B9900CB10FE /* ApiPathProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120F82C034B9900CB10FE /* ApiPathProtocol.swift */; };
+		6B4120FC2C034BDF00CB10FE /* ApiUrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120FB2C034BDF00CB10FE /* ApiUrlFactory.swift */; };
+		6B4120FE2C034C0D00CB10FE /* ApiHostEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120FD2C034C0D00CB10FE /* ApiHostEnum.swift */; };
+		6B4121002C034DFF00CB10FE /* RequestHeaderEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120FF2C034DFF00CB10FE /* RequestHeaderEnum.swift */; };
+		6B4121022C034E6D00CB10FE /* RequestErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121012C034E6D00CB10FE /* RequestErrorType.swift */; };
+		6B4121042C03506C00CB10FE /* FriendsTabApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121032C03506C00CB10FE /* FriendsTabApiPath.swift */; };
+		6B4121072C0352BA00CB10FE /* UserInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121062C0352BA00CB10FE /* UserInfoService.swift */; };
+		6B41210F2C03531A00CB10FE /* FriendsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41210E2C03531A00CB10FE /* FriendsListService.swift */; };
+		6B4121112C0355F400CB10FE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121102C0355F400CB10FE /* HomeViewModel.swift */; };
+		6B4121132C03624100CB10FE /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121122C03624100CB10FE /* UserDetailModel.swift */; };
+		6B4121172C03646B00CB10FE /* FriendsPageBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121162C03646B00CB10FE /* FriendsPageBaseViewController.swift */; };
+		6B4121192C03672D00CB10FE /* UserDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121182C03672D00CB10FE /* UserDetailHeaderView.swift */; };
+		6B41211C2C0369BC00CB10FE /* ModelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41211B2C0369BC00CB10FE /* ModelLabel.swift */; };
+		6B41211F2C036B2400CB10FE /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41211E2C036B2400CB10FE /* UIColorExt.swift */; };
+		6B4121212C036C3900CB10FE /* UIFontExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121202C036C3900CB10FE /* UIFontExt.swift */; };
+		6B4121232C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121222C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift */; };
+		6B4121262C0375C900CB10FE /* FriendsPageBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121252C0375C900CB10FE /* FriendsPageBaseViewModel.swift */; };
+		6B41212C2C0376BE00CB10FE /* NoFriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41212B2C0376BE00CB10FE /* NoFriendsViewModel.swift */; };
+		6B41212E2C0376F200CB10FE /* OnlyFriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41212D2C0376F200CB10FE /* OnlyFriendListViewModel.swift */; };
+		6B4121302C03770400CB10FE /* FriendListWithInvitationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41212F2C03770400CB10FE /* FriendListWithInvitationViewModel.swift */; };
+		6B4121332C03786500CB10FE /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121322C03786400CB10FE /* FriendModel.swift */; };
+		6B4121352C03833500CB10FE /* NoFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121342C03833500CB10FE /* NoFriendsTableViewCell.swift */; };
+		6B4121372C03848C00CB10FE /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121362C03848C00CB10FE /* UIImageExt.swift */; };
+		6B4121392C039A0200CB10FE /* InvitationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121382C039A0200CB10FE /* InvitationTableViewCell.swift */; };
+		6B41213B2C03ABCE00CB10FE /* SearchBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41213A2C03ABCE00CB10FE /* SearchBarTableViewCell.swift */; };
+		6B41213D2C03B73700CB10FE /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41213C2C03B73700CB10FE /* FriendTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +87,34 @@
 		6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListWithInvitationViewController.swift; sourceTree = "<group>"; };
 		6B4120EF2C0332E500CB10FE /* PagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesFactory.swift; sourceTree = "<group>"; };
 		6B4120F12C03354600CB10FE /* HomeViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewStyle.swift; sourceTree = "<group>"; };
+		6B4120F42C034AF900CB10FE /* ApiRequestAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestAble.swift; sourceTree = "<group>"; };
+		6B4120F62C034B5200CB10FE /* ApiServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceRequest.swift; sourceTree = "<group>"; };
+		6B4120F82C034B9900CB10FE /* ApiPathProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPathProtocol.swift; sourceTree = "<group>"; };
+		6B4120FB2C034BDF00CB10FE /* ApiUrlFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrlFactory.swift; sourceTree = "<group>"; };
+		6B4120FD2C034C0D00CB10FE /* ApiHostEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHostEnum.swift; sourceTree = "<group>"; };
+		6B4120FF2C034DFF00CB10FE /* RequestHeaderEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderEnum.swift; sourceTree = "<group>"; };
+		6B4121012C034E6D00CB10FE /* RequestErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestErrorType.swift; sourceTree = "<group>"; };
+		6B4121032C03506C00CB10FE /* FriendsTabApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTabApiPath.swift; sourceTree = "<group>"; };
+		6B4121062C0352BA00CB10FE /* UserInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoService.swift; sourceTree = "<group>"; };
+		6B41210E2C03531A00CB10FE /* FriendsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListService.swift; sourceTree = "<group>"; };
+		6B4121102C0355F400CB10FE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6B4121122C03624100CB10FE /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		6B4121162C03646B00CB10FE /* FriendsPageBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageBaseViewController.swift; sourceTree = "<group>"; };
+		6B4121182C03672D00CB10FE /* UserDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeaderView.swift; sourceTree = "<group>"; };
+		6B41211B2C0369BC00CB10FE /* ModelLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLabel.swift; sourceTree = "<group>"; };
+		6B41211E2C036B2400CB10FE /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorExt.swift; path = ../../../../../../../Documents/UIColorExt.swift; sourceTree = "<group>"; };
+		6B4121202C036C3900CB10FE /* UIFontExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExt.swift; sourceTree = "<group>"; };
+		6B4121222C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageSelectBarHeaderView.swift; sourceTree = "<group>"; };
+		6B4121252C0375C900CB10FE /* FriendsPageBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageBaseViewModel.swift; sourceTree = "<group>"; };
+		6B41212B2C0376BE00CB10FE /* NoFriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFriendsViewModel.swift; sourceTree = "<group>"; };
+		6B41212D2C0376F200CB10FE /* OnlyFriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyFriendListViewModel.swift; sourceTree = "<group>"; };
+		6B41212F2C03770400CB10FE /* FriendListWithInvitationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListWithInvitationViewModel.swift; sourceTree = "<group>"; };
+		6B4121322C03786400CB10FE /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		6B4121342C03833500CB10FE /* NoFriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		6B4121362C03848C00CB10FE /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		6B4121382C039A0200CB10FE /* InvitationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationTableViewCell.swift; sourceTree = "<group>"; };
+		6B41213A2C03ABCE00CB10FE /* SearchBarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarTableViewCell.swift; sourceTree = "<group>"; };
+		6B41213C2C03B73700CB10FE /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +168,11 @@
 		6B4120A32C031CAC00CB10FE /* CathayFriendList */ = {
 			isa = PBXGroup;
 			children = (
+				6B41211D2C036B0A00CB10FE /* UIExtension */,
+				6B41211A2C03698D00CB10FE /* UIComponents */,
+				6B4121152C03644300CB10FE /* FriendsPageBasePage */,
+				6B4120F32C034AC900CB10FE /* Api */,
+				6B4121052C03528300CB10FE /* Service */,
 				6B4120EE2C0332CC00CB10FE /* Factory */,
 				6B4120E42C0331A100CB10FE /* FriendListWithInvitationViewController */,
 				6B4120E32C03319200CB10FE /* OnlyFriendListViewController */,
@@ -171,6 +232,7 @@
 		6B4120DE2C03306100CB10FE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6B4121102C0355F400CB10FE /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,6 +248,7 @@
 		6B4120E22C03317C00CB10FE /* NoFriendsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6B41212A2C0376AE00CB10FE /* ViewModel */,
 				6B4120E52C0331B300CB10FE /* View */,
 			);
 			path = NoFriendsViewController;
@@ -194,6 +257,7 @@
 		6B4120E32C03319200CB10FE /* OnlyFriendListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6B4121292C0376A900CB10FE /* ViewModel */,
 				6B4120E62C0331B800CB10FE /* View */,
 			);
 			path = OnlyFriendListViewController;
@@ -202,6 +266,7 @@
 		6B4120E42C0331A100CB10FE /* FriendListWithInvitationViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6B4121282C0376A300CB10FE /* ViewModel */,
 				6B4120E72C0331BC00CB10FE /* View */,
 			);
 			path = FriendListWithInvitationViewController;
@@ -211,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				6B4120E82C0331CC00CB10FE /* NoFriendsViewController.swift */,
+				6B4121342C03833500CB10FE /* NoFriendsTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				6B4120EC2C0331E800CB10FE /* FriendListWithInvitationViewController.swift */,
+				6B4121382C039A0200CB10FE /* InvitationTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +304,111 @@
 				6B4120EF2C0332E500CB10FE /* PagesFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		6B4120F32C034AC900CB10FE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6B4120F42C034AF900CB10FE /* ApiRequestAble.swift */,
+				6B4120F62C034B5200CB10FE /* ApiServiceRequest.swift */,
+				6B4120F82C034B9900CB10FE /* ApiPathProtocol.swift */,
+				6B4120FB2C034BDF00CB10FE /* ApiUrlFactory.swift */,
+				6B4120FD2C034C0D00CB10FE /* ApiHostEnum.swift */,
+				6B4120FF2C034DFF00CB10FE /* RequestHeaderEnum.swift */,
+				6B4121012C034E6D00CB10FE /* RequestErrorType.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		6B4121052C03528300CB10FE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6B4121312C03781800CB10FE /* ResponseModel */,
+				6B4121032C03506C00CB10FE /* FriendsTabApiPath.swift */,
+				6B4121062C0352BA00CB10FE /* UserInfoService.swift */,
+				6B41210E2C03531A00CB10FE /* FriendsListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6B4121152C03644300CB10FE /* FriendsPageBasePage */ = {
+			isa = PBXGroup;
+			children = (
+				6B4121272C0375CD00CB10FE /* View */,
+				6B4121242C0375BB00CB10FE /* ViewModel */,
+			);
+			path = FriendsPageBasePage;
+			sourceTree = "<group>";
+		};
+		6B41211A2C03698D00CB10FE /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6B41211B2C0369BC00CB10FE /* ModelLabel.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		6B41211D2C036B0A00CB10FE /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6B41211E2C036B2400CB10FE /* UIColorExt.swift */,
+				6B4121202C036C3900CB10FE /* UIFontExt.swift */,
+				6B4121362C03848C00CB10FE /* UIImageExt.swift */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		6B4121242C0375BB00CB10FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4121252C0375C900CB10FE /* FriendsPageBaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4121272C0375CD00CB10FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4121162C03646B00CB10FE /* FriendsPageBaseViewController.swift */,
+				6B4121182C03672D00CB10FE /* UserDetailHeaderView.swift */,
+				6B4121222C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift */,
+				6B41213A2C03ABCE00CB10FE /* SearchBarTableViewCell.swift */,
+				6B41213C2C03B73700CB10FE /* FriendTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4121282C0376A300CB10FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B41212F2C03770400CB10FE /* FriendListWithInvitationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4121292C0376A900CB10FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B41212D2C0376F200CB10FE /* OnlyFriendListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B41212A2C0376AE00CB10FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B41212B2C0376BE00CB10FE /* NoFriendsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B4121312C03781800CB10FE /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4121122C03624100CB10FE /* UserDetailModel.swift */,
+				6B4121322C03786400CB10FE /* FriendModel.swift */,
+			);
+			path = ResponseModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,14 +549,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4121172C03646B00CB10FE /* FriendsPageBaseViewController.swift in Sources */,
+				6B41210F2C03531A00CB10FE /* FriendsListService.swift in Sources */,
+				6B4121352C03833500CB10FE /* NoFriendsTableViewCell.swift in Sources */,
+				6B4121112C0355F400CB10FE /* HomeViewModel.swift in Sources */,
+				6B41213B2C03ABCE00CB10FE /* SearchBarTableViewCell.swift in Sources */,
+				6B4121392C039A0200CB10FE /* InvitationTableViewCell.swift in Sources */,
+				6B4120F92C034B9900CB10FE /* ApiPathProtocol.swift in Sources */,
+				6B4121212C036C3900CB10FE /* UIFontExt.swift in Sources */,
+				6B41211F2C036B2400CB10FE /* UIColorExt.swift in Sources */,
 				6B4120A92C031CAC00CB10FE /* HomeViewController.swift in Sources */,
+				6B4120F52C034AF900CB10FE /* ApiRequestAble.swift in Sources */,
 				6B4120ED2C0331E800CB10FE /* FriendListWithInvitationViewController.swift in Sources */,
 				6B4120A52C031CAC00CB10FE /* AppDelegate.swift in Sources */,
+				6B4121002C034DFF00CB10FE /* RequestHeaderEnum.swift in Sources */,
+				6B4121302C03770400CB10FE /* FriendListWithInvitationViewModel.swift in Sources */,
+				6B4121072C0352BA00CB10FE /* UserInfoService.swift in Sources */,
+				6B4120F72C034B5200CB10FE /* ApiServiceRequest.swift in Sources */,
 				6B4120F22C03354600CB10FE /* HomeViewStyle.swift in Sources */,
+				6B4121192C03672D00CB10FE /* UserDetailHeaderView.swift in Sources */,
+				6B41212C2C0376BE00CB10FE /* NoFriendsViewModel.swift in Sources */,
+				6B4121022C034E6D00CB10FE /* RequestErrorType.swift in Sources */,
+				6B41211C2C0369BC00CB10FE /* ModelLabel.swift in Sources */,
 				6B4120E12C0330A000CB10FE /* PageCategories.swift in Sources */,
 				6B4120F02C0332E500CB10FE /* PagesFactory.swift in Sources */,
+				6B4121042C03506C00CB10FE /* FriendsTabApiPath.swift in Sources */,
 				6B4120EB2C0331DE00CB10FE /* OnlyFriendListViewController.swift in Sources */,
+				6B4121232C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift in Sources */,
+				6B41213D2C03B73700CB10FE /* FriendTableViewCell.swift in Sources */,
+				6B4121132C03624100CB10FE /* UserDetailModel.swift in Sources */,
+				6B41212E2C0376F200CB10FE /* OnlyFriendListViewModel.swift in Sources */,
 				6B4120E92C0331CC00CB10FE /* NoFriendsViewController.swift in Sources */,
+				6B4121262C0375C900CB10FE /* FriendsPageBaseViewModel.swift in Sources */,
+				6B4120FE2C034C0D00CB10FE /* ApiHostEnum.swift in Sources */,
+				6B4120FC2C034BDF00CB10FE /* ApiUrlFactory.swift in Sources */,
+				6B4121332C03786500CB10FE /* FriendModel.swift in Sources */,
+				6B4121372C03848C00CB10FE /* UIImageExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +766,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,6 +795,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

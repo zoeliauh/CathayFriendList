@@ -10,24 +10,41 @@ import UIKit
 
 class PagesFactory {
     
-    func createNoFriendsViewController() -> NoFriendsViewController {
-        let vc = NoFriendsViewController()
+    func createNoFriendsViewController(userDetail: UserDetailModel) -> NoFriendsViewController {
+        let api = FriendsTabApiPath.NoFriendsAndInvitationApi
+        let service = FriendsListService(api: api)
+        let vm = NoFriendsViewModel(service: service)
+        let vc = NoFriendsViewController(userDetail: userDetail,
+                                         baseViewModel: vm,
+                                         viewModel: vm)
         vc.navigationItem.title = PageCategories.NoFriends.rawValue
-        vc.view.backgroundColor = .red
+        vc.view.backgroundColor = .appBackgroundColor
         return vc
     }
     
-    func createOnlyFriendListViewController() -> OnlyFriendListViewController {
-        let vc = OnlyFriendListViewController()
+    func createOnlyFriendListViewController(userDetail: UserDetailModel) -> OnlyFriendListViewController {
+        let api = FriendsTabApiPath.FriendsListOneApi
+        let apiTwo = FriendsTabApiPath.FirendsListTwoApi
+        let service = FriendsListService(api: api)
+        let serviceTwo = FriendsListService(api: apiTwo)
+        let vm = OnlyFriendListViewModel(service: service, serviceTwo: serviceTwo)
+        let vc = OnlyFriendListViewController(userDetail: userDetail,
+                                              baseViewModel: vm,
+                                              viewModel: vm)
         vc.navigationItem.title = PageCategories.OnlyFriendList.rawValue
-        vc.view.backgroundColor = .yellow
+        vc.view.backgroundColor = .appBackgroundColor
         return vc
     }
     
-    func createFriendListWithInvitationViewController() -> FriendListWithInvitationViewController {
-        let vc = FriendListWithInvitationViewController()
+    func createFriendListWithInvitationViewController(userDetail: UserDetailModel) -> FriendListWithInvitationViewController {
+        let api = FriendsTabApiPath.FriendsListWithInvitationApi
+        let service = FriendsListService(api: api)
+        let vm = FriendListWithInvitationViewModel(service: service)
+        let vc = FriendListWithInvitationViewController(userDetail: userDetail,
+                                                        baseViewModel: vm,
+                                                        viewModel: vm)
         vc.navigationItem.title = PageCategories.FriendListWithInvitation.rawValue
-        vc.view.backgroundColor = .blue
+        vc.view.backgroundColor = .appBackgroundColor
         return vc
     }
 }
