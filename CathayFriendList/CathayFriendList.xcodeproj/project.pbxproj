@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3BA19B2C042EA90091E54E /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BA19A2C042EA90091E54E /* UIColorExt.swift */; };
 		6B4120A52C031CAC00CB10FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120A42C031CAC00CB10FE /* AppDelegate.swift */; };
 		6B4120A92C031CAC00CB10FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4120A82C031CAC00CB10FE /* HomeViewController.swift */; };
 		6B4120AE2C031CAE00CB10FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4120AD2C031CAE00CB10FE /* Assets.xcassets */; };
@@ -37,7 +38,6 @@
 		6B4121172C03646B00CB10FE /* FriendsPageBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121162C03646B00CB10FE /* FriendsPageBaseViewController.swift */; };
 		6B4121192C03672D00CB10FE /* UserDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121182C03672D00CB10FE /* UserDetailHeaderView.swift */; };
 		6B41211C2C0369BC00CB10FE /* ModelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41211B2C0369BC00CB10FE /* ModelLabel.swift */; };
-		6B41211F2C036B2400CB10FE /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41211E2C036B2400CB10FE /* UIColorExt.swift */; };
 		6B4121212C036C3900CB10FE /* UIFontExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121202C036C3900CB10FE /* UIFontExt.swift */; };
 		6B4121232C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121222C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift */; };
 		6B4121262C0375C900CB10FE /* FriendsPageBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4121252C0375C900CB10FE /* FriendsPageBaseViewModel.swift */; };
@@ -70,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3BA19A2C042EA90091E54E /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
 		6B4120A12C031CAC00CB10FE /* CathayFriendList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CathayFriendList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4120A42C031CAC00CB10FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B4120A82C031CAC00CB10FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		6B4121162C03646B00CB10FE /* FriendsPageBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageBaseViewController.swift; sourceTree = "<group>"; };
 		6B4121182C03672D00CB10FE /* UserDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeaderView.swift; sourceTree = "<group>"; };
 		6B41211B2C0369BC00CB10FE /* ModelLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLabel.swift; sourceTree = "<group>"; };
-		6B41211E2C036B2400CB10FE /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorExt.swift; path = ../../../../../../../Documents/UIColorExt.swift; sourceTree = "<group>"; };
 		6B4121202C036C3900CB10FE /* UIFontExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExt.swift; sourceTree = "<group>"; };
 		6B4121222C03715E00CB10FE /* FriendsPageSelectBarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageSelectBarHeaderView.swift; sourceTree = "<group>"; };
 		6B4121252C0375C900CB10FE /* FriendsPageBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageBaseViewModel.swift; sourceTree = "<group>"; };
@@ -351,9 +351,9 @@
 		6B41211D2C036B0A00CB10FE /* UIExtension */ = {
 			isa = PBXGroup;
 			children = (
-				6B41211E2C036B2400CB10FE /* UIColorExt.swift */,
 				6B4121202C036C3900CB10FE /* UIFontExt.swift */,
 				6B4121362C03848C00CB10FE /* UIImageExt.swift */,
+				6B3BA19A2C042EA90091E54E /* UIColorExt.swift */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -557,12 +557,12 @@
 				6B4121392C039A0200CB10FE /* InvitationTableViewCell.swift in Sources */,
 				6B4120F92C034B9900CB10FE /* ApiPathProtocol.swift in Sources */,
 				6B4121212C036C3900CB10FE /* UIFontExt.swift in Sources */,
-				6B41211F2C036B2400CB10FE /* UIColorExt.swift in Sources */,
 				6B4120A92C031CAC00CB10FE /* HomeViewController.swift in Sources */,
 				6B4120F52C034AF900CB10FE /* ApiRequestAble.swift in Sources */,
 				6B4120ED2C0331E800CB10FE /* FriendListWithInvitationViewController.swift in Sources */,
 				6B4120A52C031CAC00CB10FE /* AppDelegate.swift in Sources */,
 				6B4121002C034DFF00CB10FE /* RequestHeaderEnum.swift in Sources */,
+				6B3BA19B2C042EA90091E54E /* UIColorExt.swift in Sources */,
 				6B4121302C03770400CB10FE /* FriendListWithInvitationViewModel.swift in Sources */,
 				6B4121072C0352BA00CB10FE /* UserInfoService.swift in Sources */,
 				6B4120F72C034B5200CB10FE /* ApiServiceRequest.swift in Sources */,
