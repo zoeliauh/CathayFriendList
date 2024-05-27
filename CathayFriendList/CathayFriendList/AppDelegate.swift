@@ -14,8 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = UINavigationController(rootViewController: self.createRootViewController())
         self.window?.makeKeyAndVisible()
         return true
+    }
+    
+    private func createRootViewController() -> HomeViewController {
+        let userInfoService = UserInfoService()
+        let factory = PagesFactory()
+        let vm = HomeViewModel(userInfoService: userInfoService)
+        let vc = HomeViewController(viewModel: vm, factory: factory)
+        return vc
     }
 }
