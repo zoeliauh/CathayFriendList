@@ -11,6 +11,7 @@ import SnapKit
 
 class HomeViewController: UIViewController {
     
+    let viewModel: HomeViewModel
     let factory: PagesFactory
     
     private let style = HomeViewStyle()
@@ -22,7 +23,14 @@ class HomeViewController: UIViewController {
         self.setupView()
     }
     
-    init(factory: PagesFactory) {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.viewModel.getUserInfo()
+    }
+    
+    init(viewModel: HomeViewModel,
+         factory: PagesFactory) {
+        self.viewModel = viewModel
         self.factory = factory
         super.init(nibName: nil, bundle: nil)
     }
@@ -31,26 +39,22 @@ class HomeViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-    }
-    
     // MARK: Event
     @objc
     private func didTapNoFriendsButton() {
-        let vc = self.factory.createNoFriendsViewController()
+        let vc = self.factory.createNoFriendsViewController(userDetail: self.viewModel.userDetail)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc
     private func didTapOnlyFriendListButton() {
-        let vc = self.factory.createOnlyFriendListViewController()
+        let vc = self.factory.createOnlyFriendListViewController(userDetail: self.viewModel.userDetail)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc
     private func didTapFriendListWithInvitationButton() {
-        let vc = self.factory.createFriendListWithInvitationViewController()
+        let vc = self.factory.createFriendListWithInvitationViewController(userDetail: self.viewModel.userDetail)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
